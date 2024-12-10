@@ -2,9 +2,11 @@
 
 # Install the Packages in conda or virtualenv
 
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 # Test the Model
+
+Download the generator checkpoint from the link and place it in the `checkpoints` folder - https://drive.google.com/drive/folders/1CeXrJrtbRwyU4QTWXIcOGy-MW8635xu5?usp=sharing
 
 `python3 test.py`
 
